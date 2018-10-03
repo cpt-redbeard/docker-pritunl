@@ -2,7 +2,7 @@
 
 ## Pull the image
 
-    docker pull include/docker-pritunl
+    docker pull pthomson/pritunl:1.0
 
 ## Data Volume
 
@@ -15,10 +15,10 @@
         -p 1194:1194/udp \
         -p 1194:1194/tcp \
         -p 9700:9700/tcp \
-        include/docker-pritunl
+        pthomson/pritunl:1.0
 
 ## Configure Pritunl
 
 * Open https://<youripaddress:9700
 * Login with username pritunl and password pritunl
-* Fun
+
