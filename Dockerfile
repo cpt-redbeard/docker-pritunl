@@ -3,7 +3,7 @@ FROM ubuntu:14.04
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update -yq && \
-    apt-get install -yq software-properties-common python-software-properties && \
+    apt-get install -yq software-properties-common python3-software-properties && \
     add-apt-repository -y ppa:pritunl/ppa && \
     apt-get update -yq && \
     apt-get install -yq pritunl && \
