@@ -2,7 +2,7 @@
 
 ## Pull the image
 
-    docker pull pthomson/pritunl:1.0
+    docker pull pthomson/pritunl:1.3
 
 ## Data Volume
 
@@ -15,7 +15,7 @@
         -p 1194:1194/udp \
         -p 1194:1194/tcp \
         -p 9700:9700/tcp \
-        pthomson/pritunl:1.0
+        pthomson/pritunl:1.3
 
 ## Configure Pritunl
 
